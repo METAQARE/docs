@@ -24,7 +24,7 @@ Una de las innovaciones diferenciales de MetaQare es la automatización del tria
 •	Prioriza disponibilidad según urgencia y preferencias horarias.
 Este enfoque permite reducir tiempos de espera, mejorar la asignación de recursos y aumentar la satisfacción del paciente desde el primer minuto.
 “Los asistentes IA permiten ahorrar hasta un 35% del tiempo total en la experiencia de primera atención médica.” — HIMSS Digital Care Report, 2024
-(/assets/asistente-triaje.png)
+![Pagina Home QSalud](assets/asistente-triaje.png)
  
 ...
 
@@ -37,7 +37,7 @@ Los pacientes que prefieren una navegación directa pueden:
 •	Indicar si desean el primer disponible o agendar con antelación.
 En modelos como Qsalud, se permite además la reserva de múltiples consultas en un solo flujo, lo cual es especialmente útil en contextos familiares o pacientes crónicos.
 
-(/assets/seleccion-especialidad.png)
+![Pagina Home QSalud]assets/seleccion-especialidad.png)
 
 ...
 
@@ -51,7 +51,7 @@ El sistema también gestiona automáticamente:
 •	Recordatorios 24h antes de la cita.
 •	Posibilidad de reprogramación sin penalización.
 “Una agenda médica con recordatorios automáticos reduce en un 41% la tasa de ausencias médicas (no-shows).” — Harvard Business Review, 2022
-(/assets/calendario-citas.png)
+![Pagina Home QSalud](assets/calendario-citas.png)
 
 ...
 
@@ -65,7 +65,7 @@ o	Factura fiscal
 o	Acceso a la plataforma del paciente
 o	Confirmación de cita por email/WhatsApp
 Para pacientes asegurados, el sistema valida automáticamente la cobertura con SEOGA o API propia.
-(/assets/pago-consulta.png)
+![Pagina Home QSalud]assets/pago-consulta.png)
 
 ...
 
@@ -79,7 +79,7 @@ El área privada del paciente está diseñada con enfoque en usabilidad y autono
 •	Visualización de contenidos educativos y consejos.
 •	Asistente IA accesible 24/7.
 Cada paciente tiene control total sobre su información, cumpliendo los principios de autodeterminación sanitaria (Ley 41/2002 y RGPD).
-(/assets/area-paciente.png)
+![Pagina Home QSalud](assets/area-paciente.png)
 
 ...
 
@@ -93,7 +93,7 @@ Características:
 •	Compartición de documentos e imágenes
 •	Control de calidad de audio y video previo
 “El 94% de los usuarios de salud digital en España consideran esencial que la videollamada esté cifrada de extremo a extremo.” — FENIN, 2023
-(/assets/videoconsulta-activa.png)
+![Pagina Home QSalud](assets/videoconsulta-activa.png)
 
 ...
 
@@ -104,7 +104,7 @@ Tras cada consulta, el sistema genera un informe médico estándar que:
 •	Puede incluir recomendaciones, alertas, y seguimiento
 •	Está disponible en PDF para descarga inmediata
 Se conserva bajo protección legal durante el plazo estipulado en normativa europea y autonómica.
-(/assets/informe-medico.png)
+![Pagina Home QSalud](assets/informe-medico.png)
 
 ...
 
@@ -116,7 +116,7 @@ MetaQare está homologado para emitir recetas electrónicas a través de la red 
 3.	Acude a la farmacia con su DNI o código QR.
 4.	El farmacéutico accede automáticamente a la medicación activa.
 Incluye hoja de información terapéutica, trazabilidad y derechos de acceso.
-(/assets/receta-rempe.png)
+![Pagina Home QSalud](assets/receta-rempe.png)
 
 ...
 
@@ -128,7 +128,7 @@ El paciente puede activar el asistente en cualquier momento para:
 •	Solicitar consejo de especialidad
 •	Acceder a enlaces de contenido avalado
 Además, el sistema puede alertar automáticamente de síntomas compatibles con urgencias y ofrecer derivación directa.
-(/assets/asistente-sintomas.png)
+![Pagina Home QSalud](assets/asistente-sintomas.png)
 
 ...
 
