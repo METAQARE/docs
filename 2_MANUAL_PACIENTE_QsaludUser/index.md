@@ -1,8 +1,8 @@
-#Manual del Paciente / Asegurado | MetaQare
+## Manual del Paciente / Asegurado | MetaQare
 
 El presente manual tiene como objetivo ofrecer una guía detallada, estratégica y pedagógica sobre cómo un paciente o asegurado puede navegar, beneficiarse y sacar el máximo provecho de la infraestructura digital MetaQare, desplegada en aplicaciones como Qsalud. MetaQare no es una app más: es un ecosistema diseñado desde la evidencia clínica, los datos, y la tecnología de vanguardia para que el paciente recupere el control de su salud con autonomía, seguridad y acompañamiento profesional.
 
-##Acceso al Ecosistema MetaQare
+## Acceso al Ecosistema MetaQare
 
 MetaQare está diseñado para ofrecer accesibilidad desde cualquier entorno y dispositivo. El acceso se realiza principalmente desde:
 •	Portal web: https://qsalud.com
@@ -14,7 +14,7 @@ Una vez dentro del sistema, el usuario podrá elegir entre navegar por su cuenta
 
 ...
 
-##Triaje Inteligente y Personalización del Servicio
+## Triaje Inteligente y Personalización del Servicio
 
 Una de las innovaciones diferenciales de MetaQare es la automatización del triaje clínico mediante IA. Este agente IA:
 •	Formula preguntas adaptadas a los síntomas descritos.
@@ -28,7 +28,7 @@ Este enfoque permite reducir tiempos de espera, mejorar la asignación de recurs
 
 ...
 
-##Selección de Consulta y Profesional
+## Selección de Consulta y Profesional
 
 Los pacientes que prefieren una navegación directa pueden:
 •	Elegir entre modalidad privada, aseguradora o empresarial.
@@ -41,7 +41,7 @@ En modelos como Qsalud, se permite además la reserva de múltiples consultas en
 
 ...
 
-##Agendamiento Multicanal
+## Agendamiento Multicanal
 
 La experiencia de calendario es intuitiva y multicanal:
 •	Interfaz con calendario personalizable.
@@ -55,7 +55,7 @@ El sistema también gestiona automáticamente:
 
 ...
 
-##Proceso de Pago Seguro
+## Proceso de Pago Seguro
 
 En consultas privadas, MetaQare integra pasarelas seguras (Redsys, Stripe) con validación bancaria europea.
 •	Visualización anticipada de precios y duración estimada.
@@ -69,7 +69,7 @@ Para pacientes asegurados, el sistema valida automáticamente la cobertura con S
 
 ...
 
-##Área Personal del Paciente
+## Área Personal del Paciente
 
 El área privada del paciente está diseñada con enfoque en usabilidad y autonomía:
 •	Historial de citas pasadas y próximas.
@@ -83,7 +83,7 @@ Cada paciente tiene control total sobre su información, cumpliendo los principi
 
 ...
 
-##Videoconsulta Avanzada
+## Videoconsulta Avanzada
 
 MetaQare permite acceder desde cualquier navegador moderno o dispositivo móvil sin necesidad de instalar apps.
 Características:
@@ -97,7 +97,7 @@ Características:
 
 ...
 
-##Informes e Historial Clínico
+## Informes e Historial Clínico
 
 Tras cada consulta, el sistema genera un informe médico estándar que:
 •	Resume el motivo de consulta, diagnóstico y tratamiento
@@ -108,7 +108,7 @@ Se conserva bajo protección legal durante el plazo estipulado en normativa euro
 
 ...
 
-##Receta Electrónica y REMPE
+## Receta Electrónica y REMPE
 
 MetaQare está homologado para emitir recetas electrónicas a través de la red REMPE (Receta Electrónica Privada de España). El proceso es:
 1.	El médico prescribe desde la plataforma.
@@ -120,7 +120,7 @@ Incluye hoja de información terapéutica, trazabilidad y derechos de acceso.
 
 ...
 
-##Asistente Médico IA 24/7
+## Asistente Médico IA 24/7
 
 El paciente puede activar el asistente en cualquier momento para:
 •	Resolver dudas frecuentes
@@ -132,7 +132,7 @@ Además, el sistema puede alertar automáticamente de síntomas compatibles con 
 
 ...
 
-##Validación con Aseguradoras
+## Validación con Aseguradoras
 
 Cuando el usuario selecciona una aseguradora:
 •	Se solicitan los datos del asegurado.
@@ -143,7 +143,7 @@ Esto elimina el 100% del papeleo para el paciente.
 
 ...
 
-##Privacidad y Seguridad
+## Privacidad y Seguridad
 
 •	Encriptación AES-256 en tránsito y reposo.
 •	Firma electrónica avanzada eIDAS.
@@ -153,7 +153,7 @@ MetaQare cumple con ENS, RGPD, LOPDGDD y está auditado externamente.
 
 ...
 
-##Soporte Integral
+## Soporte Integral
 
 •	Línea 24/7 para soporte técnico y médico: 900 868 565
 •	Email institucional: info@qsalud.com
