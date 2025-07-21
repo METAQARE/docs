@@ -1,11 +1,11 @@
 
-# 🔒 Acceso General | Manual MetaQare
+# Acceso General | Manual MetaQare
 
 Bienvenido/a al ecosistema **MetaQare**, el primer sistema de salud digital completamente interoperable, descentralizado y centrado en el usuario. Este apartado sirve como introducción general a la arquitectura, filosofía y alcance del proyecto MetaQare, y constituye el punto de partida para todos los perfiles de usuario: pacientes, aseguradoras, médicos y administradores.
 
 ---
 
-## 🌍 Visión Global
+## Visión Global
 
 **MetaQare** es más que una plataforma: es la nueva infraestructura de la salud del siglo XXI. Diseñado para resolver las ineficiencias, sobrecargas y fragmentaciones de los sistemas sanitarios tradicionales, MetaQare combina:
 
@@ -24,7 +24,7 @@ MetaQare se alinea con las principales tendencias globales descritas por McKinse
 
 ---
 
-## 📈 Problemática Global
+## Problemática Global
 
 La atención sanitaria a nivel mundial se enfrenta a:
 
@@ -42,7 +42,7 @@ MetaQare aborda estas ineficiencias con un sistema basado en:
 
 ---
 
-## 🤖 Componentes Clave del Ecosistema
+## Componentes Clave del Ecosistema
 
 ### 1. Plataforma MetaQare
 - Modular, personalizable, cloud-native
@@ -72,7 +72,7 @@ MetaQare aborda estas ineficiencias con un sistema basado en:
 
 ---
 
-## 🔐 Seguridad, Cumplimiento y Confianza
+## Seguridad, Cumplimiento y Confianza
 
 MetaQare está alineado con los más altos estándares de compliance:
 
@@ -84,7 +84,7 @@ MetaQare está alineado con los más altos estándares de compliance:
 
 ---
 
-## 🧑‍🤝‍🧑 Roles y Perfiles
+## Roles y Perfiles
 
 Esta documentación se estructura por perfiles:
 
@@ -95,7 +95,7 @@ Esta documentación se estructura por perfiles:
 
 ---
 
-## 📞 Soporte y Contacto
+## Soporte y Contacto
 
 - Email: **info@metaqare.com**
 - WhatsApp Soporte: **+34 696 938 675**
@@ -103,7 +103,7 @@ Esta documentación se estructura por perfiles:
 
 ---
 
-## 🔗 Enlaces Relevantes
+## Enlaces Relevantes
 
 - Web oficial: [www.metaqare.com](https://www.metaqare.com)
 - Plataforma de pacientes: [www.qsalud.com](https://www.qsalud.com)
