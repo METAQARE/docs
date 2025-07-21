@@ -10,7 +10,7 @@ MetaQare está diseñado para ofrecer accesibilidad desde cualquier entorno y di
 •	Enlaces directos desde aseguradoras colaboradoras (ej. MAPFRE Salud)
 Una vez dentro del sistema, el usuario podrá elegir entre navegar por su cuenta o dejarse guiar por el Asistente Inteligente de Triaje, que constituye uno de los pilares tecnológicos diferenciales del ecosistema.
 "El 70% de los usuarios en Europa esperan una experiencia digital fluida y comparable a la de Amazon o Netflix, también en salud." — McKinsey HealthTech Survey 2023
-(/assets/home-qsalud.png)
+![Pagina Home QSalud](assets/home-qsalud.png)
 
 ...
 
