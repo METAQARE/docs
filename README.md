@@ -1,44 +1,64 @@
-# Mintlify Starter Kit
+# Documentación de METAQARE
 
-Use the starter kit to get your docs deployed and ready to customize.
+Bienvenido/a a la documentación oficial de **METAQARE**.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+Este repositorio contiene la documentación y guías de uso para todos los productos y servicios de METAQARE. Aquí encontrarás tutoriales, referencias de API, ejemplos y recursos para aprovechar al máximo nuestras soluciones.
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+---
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+##  Primeros Pasos
 
-## Development
+1. Visita la documentación en línea: [https://docs.metaqare.com](https://docs.metaqare.com) <!-- Cambia el link por el real si es diferente -->
+2. Explora nuestras [Guías de Inicio Rápido](./docs/intro.md)
+3. Si tienes dudas, contáctanos a soporte@metaqare.com
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+---
 
-```
-npm i -g mint
-```
+##  Desarrollo local
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+Para editar y previsualizar la documentación localmente:
 
-```
-mint dev
-```
+1. Instala el [Mintlify CLI](https://www.npmjs.com/package/mint):
 
-View your local preview at `http://localhost:3000`.
+    ```sh
+    npm i -g mint
+    ```
 
-## Publishing changes
+2. Ejecuta el servidor local desde la raíz del repositorio:
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
+    ```sh
+    mint dev
+    ```
 
-## Need help?
+3. Abre tu navegador en `http://localhost:3000` para ver los cambios.
 
-### Troubleshooting
+---
 
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
+## Publicación de cambios
 
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
-- [Mintlify community](https://mintlify.com/community)
+- Al hacer push a la rama principal, la documentación se actualiza automáticamente en el sitio de producción.
+- Si necesitas ayuda con la integración, revisa nuestra [Guía de Deploy](./docs/deploy.md) <!-- Solo si tienes una guía así -->
+
+---
+
+##  Colabora con nosotros
+
+Las contribuciones son bienvenidas. Si quieres reportar un bug, sugerir una mejora o aportar documentación, crea un [Issue](https://github.com/METAQARE/docs/issues) o haz un Pull Request.
+
+---
+
+## Recursos adicionales
+
+- [Sitio web de METAQARE](https://metaqare.com)
+- [Soporte Técnico](mailto:soporte@metaqare.com)
+- [Mintlify documentación oficial](https://mintlify.com/docs) <!-- puedes quitar esto si quieres solo tus recursos -->
+
+---
+
+## Licencia
+
+Este repositorio está licenciado bajo los términos de la [MIT License](./LICENSE).
+
+---
+
+
