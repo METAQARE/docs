@@ -25,7 +25,7 @@ Una de las innovaciones diferenciales de MetaQare es la automatización del tria
 Este enfoque permite reducir tiempos de espera, mejorar la asignación de recursos y aumentar la satisfacción del paciente desde el primer minuto.
 “Los asistentes IA permiten ahorrar hasta un 35% del tiempo total en la experiencia de primera atención médica.” — HIMSS Digital Care Report, 2024
 (/assets/asistente-triaje.png)
-
+ 
 ...
 
 ## Selección de Consulta y Profesional
