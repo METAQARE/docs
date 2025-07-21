@@ -1,4 +1,4 @@
-## Manual del Paciente / Asegurado | MetaQare
+# Manual del Paciente / Asegurado | MetaQare
 
 El presente manual tiene como objetivo ofrecer una guía detallada, estratégica y pedagógica sobre cómo un paciente o asegurado puede navegar, beneficiarse y sacar el máximo provecho de la infraestructura digital MetaQare, desplegada en aplicaciones como Qsalud. MetaQare no es una app más: es un ecosistema diseñado desde la evidencia clínica, los datos, y la tecnología de vanguardia para que el paciente recupere el control de su salud con autonomía, seguridad y acompañamiento profesional.
 
