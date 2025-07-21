@@ -37,7 +37,7 @@ Los pacientes que prefieren una navegación directa pueden:
 •	Indicar si desean el primer disponible o agendar con antelación.
 En modelos como Qsalud, se permite además la reserva de múltiples consultas en un solo flujo, lo cual es especialmente útil en contextos familiares o pacientes crónicos.
 
-![Pagina Home QSalud]assets/seleccion-especialidad.png)
+![Pagina Home QSalud](assets/seleccion-especialidad.png)
 
 ...
 
