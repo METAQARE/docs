@@ -62,7 +62,7 @@ await reservarCita(
   provider_id,
   "2024-08-20",
   "11:30",
-  "presencial",
+  "videollamada",
   "Ana",
   "López",
   "ana.lopez@email.com",
@@ -84,7 +84,7 @@ await modificarCita(
   "12345",      // ID de la reserva
   "2024-08-22", // Nueva fecha
   "16:00",      // Nueva hora
-  "virtual"     // Nueva modalidad
+  "llamada"     // Nueva modalidad
 );
 ```
 **Respuesta:**  
@@ -124,7 +124,7 @@ Fecha inicio: 2024-08-20 11:30
 Fecha fin: 2024-08-20 12:00
 Especialidad: Cardiología
 Médico: Dr. Pérez
-Modalidad: presencial
+Modalidad: Videollamada
 Estado: Confirmada
 ```
 
@@ -136,7 +136,7 @@ Estado: Confirmada
 await consultarPrecio("Psicología");
 ```
 **Respuesta:**  
-`"60.00 €"`
+`"49.00 €"`
 
 ---
 
@@ -158,8 +158,8 @@ await consultarPrecio("Psicología");
 ## Soporte
 
 ¿Dudas o sugerencias?  
-Escríbenos a: [soporte@metaqare.com](mailto:soporte@metaqare.com)  
-Más información y documentación en: [https://docs.metaqare.com/ai-tools/qsalud](https://docs.metaqare.com/ai-tools/qsalud)
+Escríbenos a: [soporte@metaqare.com](mailto:soporte@metaqare.ai)  
+Más información y documentación en: [https://docs.metaqare.ai/ai-tools/qsalud](https://docs.metaqare.ai/ai-tools/qsalud)
 
 ---
 
