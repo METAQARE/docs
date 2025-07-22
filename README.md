@@ -8,7 +8,7 @@ Este repositorio contiene la documentación y guías de uso para todos los produ
 
 ##  Primeros Pasos
 
-1. Visita la documentación en línea: [https://docs.metaqare.com](https://docs.metaqare.com) <!-- Cambia el link por el real si es diferente -->
+1. Visita la documentación en línea: [https://docs.metaqare.com](https://docs.metaqare.ai) <!-- Cambia el link por el real si es diferente -->
 2. Explora nuestras [Guías de Inicio Rápido](./docs/intro.md)
 3. Si tienes dudas, contáctanos a soporte@metaqare.com
 
@@ -49,8 +49,8 @@ Las contribuciones son bienvenidas. Si quieres reportar un bug, sugerir una mejo
 
 ## Recursos adicionales
 
-- [Sitio web de METAQARE](https://metaqare.com)
-- [Soporte Técnico](mailto:soporte@metaqare.com)
+- [Sitio web de METAQARE](https://metaqare.ai)
+- [Soporte Técnico](mailto:soporte@metaqare.ai)
 - [Mintlify documentación oficial](https://mintlify.com/docs) <!-- puedes quitar esto si quieres solo tus recursos -->
 
 ---
