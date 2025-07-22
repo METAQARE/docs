@@ -107,7 +107,9 @@ El sistema también gestiona automáticamente:
 
 ## Proceso de Pago Seguro
 
-En consultas privadas, MetaQare integra pasarelas seguras (Redsys, Stripe) con validación bancaria europea.</br>
+En consultas privadas, MetaQare integra pasarelas seguras (Redsys, Stripe) con validación bancaria europea.
+
+
 •	Visualización anticipada de precios y duración estimada.
 
 
