@@ -6,7 +6,7 @@ Este repositorio contiene la documentación y guías de uso para todos los produ
 
 ---
 
-##  Primeros Pasos
+## Primeros Pasos
 
 1. Visita la documentación en línea: [https://docs.metaqare.com](https://docs.metaqare.ai) <!-- Cambia el link por el real si es diferente -->
 2. Explora nuestras [Guías de Inicio Rápido](./docs/intro.md)
@@ -14,7 +14,7 @@ Este repositorio contiene la documentación y guías de uso para todos los produ
 
 ---
 
-##  Desarrollo local
+## Desarrollo local
 
 Para editar y previsualizar la documentación localmente:
 
@@ -41,7 +41,7 @@ Para editar y previsualizar la documentación localmente:
 
 ---
 
-##  Colabora con nosotros
+## Colabora con nosotros
 
 Las contribuciones son bienvenidas. Si quieres reportar un bug, sugerir una mejora o aportar documentación, crea un [Issue](https://github.com/METAQARE/docs/issues) o haz un Pull Request.
 
@@ -59,5 +59,3 @@ Las contribuciones son bienvenidas. Si quieres reportar un bug, sugerir una mejo
 Este repositorio está licenciado bajo los términos de la [MIT License](./LICENSE).
 
 ---
-
-
