@@ -51,7 +51,6 @@ Las contribuciones son bienvenidas. Si quieres reportar un bug, sugerir una mejo
 
 - [Sitio web de METAQARE](https://metaqare.ai)
 - [Soporte Técnico](mailto:soporte@metaqare.ai)
-- [Mintlify documentación oficial](https://mintlify.com/docs) <!-- puedes quitar esto si quieres solo tus recursos -->
 
 ---
 
