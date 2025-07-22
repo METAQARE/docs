@@ -65,7 +65,7 @@ o	Factura fiscal</br>
 o	Acceso a la plataforma del paciente</br>
 o	Confirmación de cita por email/WhatsApp</br>
 Para pacientes asegurados, el sistema valida automáticamente la cobertura con SEOGA o API propia.
-![Pagina Home QSalud]assets/pago-consulta.png)
+![Pagina Home QSalud](assets/pago-consulta.png)
 
 ...
 
