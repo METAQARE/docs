@@ -24,8 +24,8 @@
           {
             "group": "Manual del Paciente",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "2_MANUAL_PACIENTE_QsaludUser/index",
+              "6_VIDEOS_TUTORIALES/index"
             ]
           },
           {
