@@ -55,10 +55,10 @@
           {
             "group": "Manuales",
             "pages": [
-              "1_ACCESO_GENERAL/index",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "1_ACCESO_GENERAL",
+              "2_MANUAL_PACIENTE_QsaludUser",
+              "3_MANUAL_PROFESIONAL_QsaludPro",
+              "4_PORTAL_ASEGURADORAS_CLIENTES"
             ]
           }
         ]
