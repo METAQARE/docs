@@ -55,9 +55,9 @@
             ]
           },
           {
-            "group": "Ejemplos de endpoints",
+            "group": "Manuales",
             "pages": [
-              "api-reference/endpoint/get",
+              "1_ACCESO_GENERAL/index",
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
