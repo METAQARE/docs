@@ -22,6 +22,22 @@
             ]
           },
           {
+            "group": "Personalización",
+            "pages": [
+              "essentials/settings",
+              "essentials/navigation"
+            ]
+          },
+          {
+            "group": "Escribir contenido",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
             "group": "Herramientas de IA",
             "pages": [
               "ai-tools/agente-triaje-qsalud-online"
@@ -30,6 +46,15 @@
         ]
       },
       {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Documentación API",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          {
             "group": "Manuales",
             "pages": [
               "1_ACCESO_GENERAL/index",
