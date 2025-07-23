@@ -29,12 +29,10 @@
             ]
           },
           {
-            "group": "Escribir contenido",
+            "group": "Manual del Profesional",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "3_MANUAL_PROFESIONAL_QsaludPro",
+              "6_VIDEOS_TUTORIALES"
             ]
           },
           {
