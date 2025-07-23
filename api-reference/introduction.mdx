@@ -1,33 +1,30 @@
 ---
-title: 'Introduction'
-description: 'Example section for showcasing API endpoints'
+title: "Introducción a la API de MetaQare"
+description: "Conecta, automatiza e integra tu sistema de salud con la API de MetaQare."
 ---
 
 <Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
+  La API de MetaQare permite a hospitales, aseguradoras, clínicas y desarrolladores integrarse fácilmente con nuestro ecosistema, automatizar procesos y acceder a información clave de manera segura.
 </Note>
 
-## Welcome
+## ¿Qué puedes hacer con la API de MetaQare?
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+- Crear, leer y actualizar información de pacientes, citas y profesionales.
+- Gestionar autorizaciones, planes de salud privados y para aseguradoras.
+- Automatizar flujos administrativos y de atención médica.
+- Integrar tus propios sistemas, aplicaciones o portales externos.
+- Acceso seguro y controlado bajo estándares internacionales de privacidad.
 
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
+<Card title="Autenticación" icon="leaf" href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json">
+  La autenticación de la API se realiza mediante **API keys** o tokens de acceso seguros.
+
+  Solicita tu acceso escribiendo a [**soporte@metaqare.ai**](mailto:soporte@metaqare.ai), si aún no tienes tus credenciales.
 </Card>
 
-## Authentication
+## Ejemplo de solicitud
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+Una consulta básica a la API usando `curl`:
 
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
+```bash
+curl -X GET "https://api.metaqare.ai/pacientes" \
+  -H "Authorization: Bearer TU_API_KEY"
