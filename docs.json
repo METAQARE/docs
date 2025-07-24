@@ -24,15 +24,15 @@
           {
             "group": "Manual del Paciente",
             "pages": [
-              "2_MANUAL_PACIENTE_QsaludUser",
-              "6_VIDEOS_TUTORIALES"
+              "MANUAL_PACIENTE_QsaludUser",
+              "VIDEOS_TUTORIALES"
             ]
           },
           {
             "group": "Manual del Profesional",
             "pages": [
-              "3_MANUAL_PROFESIONAL_QsaludPro",
-              "6_VIDEOS_TUTORIALES"
+              "MANUAL_PROFESIONAL_QsaludPro",
+              "VIDEOS_TUTORIALES"
             ]
           },
           {
@@ -55,10 +55,10 @@
           {
             "group": "Manuales",
             "pages": [
-              "1_ACCESO_GENERAL",
-              "2_MANUAL_PACIENTE_QsaludUser",
-              "3_MANUAL_PROFESIONAL_QsaludPro",
-              "4_PORTAL_ASEGURADORAS_CLIENTES"
+              "ACCESO_GENERAL",
+              "MANUAL_PACIENTE_QsaludUser",
+              "MANUAL_PROFESIONAL_QsaludPro",
+              "PORTAL_ASEGURADORAS_CLIENTES"
             ]
           }
         ]
