@@ -1,5 +1,4 @@
-
-# Agente de triaje QSalud Online
+# Agente IA de triaje médico
 
 El **Agente de triaje QSalud Online** es una solución integrada en la plataforma METAQARE que utiliza inteligencia artificial para mejorar y automatizar el triaje, el agendamiento y la gestión de citas médicas. Este agente conecta a tus usuarios y asistentes virtuales con el sistema de QSalud, permitiendo resolver todo el ciclo de atención médica de manera automática, rápida y segura.
 
@@ -18,16 +17,16 @@ El **Agente de triaje QSalud Online** es una solución integrada en la plataform
 
 ## Funciones disponibles
 
-| Función                        | Descripción                                                        |
-|------------------------------- |--------------------------------------------------------------------|
-| **sugerirEspecialidad**        | Sugiere la especialidad médica apropiada en base a los síntomas.   |
-| **modificarCita**              | Modifica la fecha, hora o modalidad de una cita ya reservada.      |
-| **cancelarCita**               | Cancela una cita existente indicando el motivo.                    |
-| **buscarPrimeraDisponibilidad**| Busca el primer horario disponible para una especialidad.          |
-| **buscarDisponibilidad**       | Lista horarios disponibles para una especialidad o doctor.         |
-| **consultarPrecio**            | Devuelve el precio de una especialidad médica.                     |
-| **verDetalleCita**             | Muestra toda la información relevante de una cita médica.          |
-| **reservarCita**               | Permite reservar una nueva cita médica con todos los datos.        |
+| Función                         | Descripción                                                      |
+| ------------------------------- | ---------------------------------------------------------------- |
+| **sugerirEspecialidad**         | Sugiere la especialidad médica apropiada en base a los síntomas. |
+| **modificarCita**               | Modifica la fecha, hora o modalidad de una cita ya reservada.    |
+| **cancelarCita**                | Cancela una cita existente indicando el motivo.                  |
+| **buscarPrimeraDisponibilidad** | Busca el primer horario disponible para una especialidad.        |
+| **buscarDisponibilidad**        | Lista horarios disponibles para una especialidad o doctor.       |
+| **consultarPrecio**             | Devuelve el precio de una especialidad médica.                   |
+| **verDetalleCita**              | Muestra toda la información relevante de una cita médica.        |
+| **reservarCita**                | Permite reservar una nueva cita médica con todos los datos.      |
 
 ---
 
@@ -40,7 +39,8 @@ Tus agentes conversacionales podrán llamar estas funciones de forma directa:
 ```js
 await sugerirEspecialidad("dolor de garganta y fiebre");
 ```
-**Respuesta:**  
+
+**Respuesta:**\
 `"Otorrinolaringología"`
 
 ---
@@ -50,7 +50,8 @@ await sugerirEspecialidad("dolor de garganta y fiebre");
 ```js
 await buscarPrimeraDisponibilidad("Dermatología", "virtual");
 ```
-**Respuesta:**  
+
+**Respuesta:**\
 `"Primera cita disponible: 2024-08-15 09:00 (virtual)"`
 
 ---
@@ -72,7 +73,8 @@ await reservarCita(
   2
 );
 ```
-**Respuesta:**  
+
+**Respuesta:**\
 `"Cita reservada correctamente. Enlace de pago: https://..."`
 
 ---
@@ -87,7 +89,8 @@ await modificarCita(
   "llamada"     // Nueva modalidad
 );
 ```
-**Respuesta:**  
+
+**Respuesta:**\
 `"Cita modificada exitosamente."`
 
 ---
@@ -100,7 +103,8 @@ await cancelarCita(
   "No puedo asistir"
 );
 ```
-**Respuesta:**  
+
+**Respuesta:**\
 `"Cita cancelada correctamente."`
 
 ---
@@ -117,7 +121,9 @@ await verDetalleCita(
   "Dr. Pérez"
 );
 ```
+
 **Respuesta:**
+
 ```
 Paciente: Ana López
 Fecha inicio: 2024-08-20 11:30
@@ -135,7 +141,8 @@ Estado: Confirmada
 ```js
 await consultarPrecio("Psicología");
 ```
-**Respuesta:**  
+
+**Respuesta:**\
 `"49.00 €"`
 
 ---
@@ -157,13 +164,13 @@ await consultarPrecio("Psicología");
 
 ## Soporte
 
-¿Dudas o sugerencias?  
-Escríbenos a: [soporte@metaqare.com](mailto:soporte@metaqare.ai)  
-Más información y documentación en: [https://docs.metaqare.ai/ai-tools/qsalud](https://docs.metaqare.ai/ai-tools/qsalud)
+¿Dudas o sugerencias?\
+Escríbenos a: [soporte@metaqare.com](mailto:soporte@metaqare.ai)\
+Más información y documentación en: https://docs.metaqare.ai/ai-tools/qsalud
 
 ---
 
-> **METAQARE — Salud digital para todos.**  
+> **METAQARE — Salud digital para todos.**\
 > Optimiza la experiencia médica de tus usuarios, automatiza la atención y lleva tu clínica al siguiente nivel con IA.
 
 ---
