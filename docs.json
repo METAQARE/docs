@@ -38,7 +38,8 @@
           {
             "group": "Herramientas de IA",
             "pages": [
-              "ai-tools/agente-triaje-qsalud-online"
+              "ai-tools/agente-triaje-qsalud-online",
+              "ai-tools/agente-transcripcion-metaqare"
             ]
           }
         ]
