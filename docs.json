@@ -38,7 +38,8 @@
           {
             "group": "Herramientas de IA",
             "pages": [
-              "ai-tools/agentes-inteligentes-metaqare"
+              "ai-tools/agentes-inteligentes-metaqare",
+              "ai-tools/Agentes"
              ]
           }
         ]
