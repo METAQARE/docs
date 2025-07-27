@@ -40,7 +40,26 @@
             "pages": [
               "ai-tools/agentes-inteligentes-metaqare",
               "ai-tools/Agentes"
-             ]
+            ]
+          },
+          {
+            "group": "Agentes MetaQare",
+            "pages": [
+              "ai-tools/Agentes/Agente-IA-Analisis-Predictivo-Clinico-Qsalud",
+              "ai-tools/Agentes/Agente-IA-Asistencia-Cirugias-MetaQare-Qsalud",
+              "ai-tools/Agentes/Agente-IA-Consentimientos-Informados-Qsalud",
+              "ai-tools/Agentes/Agente-IA-Diagnostico-Imagen-MetaQare-Qsalud",
+              "ai-tools/Agentes/Agente-IA-Gestion-Salud-Mental-Qsalud",
+              "ai-tools/Agentes/agente-analiticas-metaqare",
+              "ai-tools/Agentes/agente-educativo-metaqare",
+              "ai-tools/Agentes/agente-einstein-metaqare",
+              "ai-tools/Agentes/agente-mensajeria-metaqare",
+              "ai-tools/Agentes/agente-seguimiento-metaqare",
+              "ai-tools/Agentes/agente-segundaopinion-metaqare",
+              "ai-tools/Agentes/agente-transcripcion-metaqare",
+              "ai-tools/Agentes/agente-triaje-qsalud-online",
+              "ai-tools/Agentes/agentes-ia-metaqare"
+            ]
           }
         ]
       },
