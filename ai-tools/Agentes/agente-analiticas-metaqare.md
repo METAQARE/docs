@@ -1,4 +1,4 @@
-# 🧪 Agente IA de Interpretación Avanzada de Analíticas
+# Agente IA de Interpretación Avanzada de Analíticas
 
 El **Agente IA de Interpretación Avanzada de Analíticas de MetaQare** es el primer copiloto digital especializado en la comprensión y contextualización clínica de resultados de laboratorio, pruebas diagnósticas y biomarcadores, diseñado para pacientes, médicos y aseguradoras. Convierte datos crudos en decisiones clínicas inteligentes y accionables en tiempo real.
 
@@ -17,13 +17,13 @@ El **Agente IA de Interpretación Avanzada de Analíticas de MetaQare** es el pr
 
 ## Funciones disponibles
 
-| Función                          | Descripción                                                                              |
-| -------------------------------- | ---------------------------------------------------------------------------------------- |
-| **interpretarAnalitica**         | Analiza y contextualiza parámetros, identifica valores fuera de rango y riesgos asociados.|
-| **compararHistorico**            | Detecta tendencias y compara resultados actuales con previos del mismo paciente.          |
-| **explicarResultados**           | Traduce datos técnicos en explicaciones claras y visuales para paciente o profesional.    |
-| **sugerirAccion**                | Recomienda acciones clínicas, revisiones, consultas o alertas automáticas.                |
-| **generarInformeAnalitico**      | Crea un informe digital completo y exportable, listo para firma y archivo.               |
+| Función                     | Descripción                                                                                |
+| --------------------------- | ------------------------------------------------------------------------------------------ |
+| **interpretarAnalitica**    | Analiza y contextualiza parámetros, identifica valores fuera de rango y riesgos asociados. |
+| **compararHistorico**       | Detecta tendencias y compara resultados actuales con previos del mismo paciente.           |
+| **explicarResultados**      | Traduce datos técnicos en explicaciones claras y visuales para paciente o profesional.     |
+| **sugerirAccion**           | Recomienda acciones clínicas, revisiones, consultas o alertas automáticas.                 |
+| **generarInformeAnalitico** | Crea un informe digital completo y exportable, listo para firma y archivo.                 |
 
 ---
 
@@ -41,7 +41,9 @@ await interpretarAnalitica({
   "VSG": 12
 });
 ```
+
 **Respuesta:**
+
 ```txt
 "Glucosa elevada (140 mg/dL). Sugiere posible diabetes o intolerancia. Colesterol total elevado (260 mg/dL), riesgo cardiovascular aumentado. Se recomienda revisión médica en menos de 1 mes."
 ```
@@ -53,7 +55,9 @@ await interpretarAnalitica({
 ```js
 await compararHistorico("Juan García", { "colesterol total": 260 });
 ```
+
 **Respuesta:**
+
 ```txt
 "Colesterol total ha aumentado un 12% respecto a la última analítica. Valorar ajuste de dieta o medicación."
 ```
@@ -65,7 +69,9 @@ await compararHistorico("Juan García", { "colesterol total": 260 });
 ```js
 await explicarResultados("hemoglobina glicosilada", 7.2, "adulto", "es");
 ```
+
 **Respuesta:**
+
 ```txt
 "Tu hemoglobina glicosilada es 7.2%. Esto indica que el control de tu glucosa en los últimos 3 meses ha estado algo alto. Es recomendable revisar el tratamiento con tu médico."
 ```
@@ -81,7 +87,9 @@ await sugerirAccion({
   "creatinina": 2.1
 });
 ```
+
 **Respuesta:**
+
 ```txt
 "¡Alerta! Potasio elevado (6.1 mmol/L) y creatinina aumentada. Riesgo de insuficiencia renal aguda. Se recomienda derivación urgente a urgencias."
 ```
@@ -93,7 +101,9 @@ await sugerirAccion({
 ```js
 await generarInformeAnalitico("Juan García", { ...analítica });
 ```
+
 **Respuesta:**
+
 ```txt
 "Informe PDF generado con gráficos, tendencias históricas y recomendaciones automáticas. Listo para compartir o firmar."
 ```
@@ -127,8 +137,8 @@ await generarInformeAnalitico("Juan García", { ...analítica });
 
 ## Soporte
 
-¿Dudas o sugerencias?  
-Contacta: [soporte@metaqare.ai](mailto:soporte@metaqare.ai)  
+¿Dudas o sugerencias?\
+Contacta: [soporte@metaqare.ai](mailto:soporte@metaqare.ai)\
 Más información y documentación: https://docs.metaqare.ai/ai-tools/analiticas
 
 ---
