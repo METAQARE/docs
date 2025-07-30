@@ -1,4 +1,8 @@
-# 🧬 Agente IA Segunda Opinión Médica Internacional
+---
+title: "Agente IA Segunda Opinión Médica Internacional"
+---
+
+#
 
 El **Agente IA de Segunda Opinión Médica Internacional de MetaQare** abre las puertas de la medicina global a cualquier paciente, permitiendo acceder, de manera automatizada y ética, al conocimiento de los mejores especialistas del mundo y a la literatura científica más avanzada para los casos clínicos más complejos.
 

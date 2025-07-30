@@ -1,5 +1,6 @@
-
-# Agente IA de Asistencia a Cirugías y Procedimientos
+---
+title: "Agente IA de Asistencia a Cirugías y Procedimientos"
+---
 
 ## Introducción
 

@@ -1,4 +1,9 @@
-# 👤 Agente IA de Seguimiento del Paciente (Cuidador Digital)
+---
+title: "Agente IA de Seguimiento del Paciente (Cuidador Digital)"
+---
+
+#
+
 
 El **Agente IA de Seguimiento del Paciente de MetaQare** redefine el concepto de continuidad asistencial y autocuidado. Este agente actúa como un cuidador inteligente, proactivo y personalizado, acompañando a cada paciente dentro y fuera de la consulta médica, maximizando la adherencia terapéutica y previniendo complicaciones.
 

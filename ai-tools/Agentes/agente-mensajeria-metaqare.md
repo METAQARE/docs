@@ -1,4 +1,8 @@
-# 📲 Agente IA de Mensajería Omnicanal
+---
+title: "Agente IA de Mensajería Omnicanal"
+---
+
+#
 
 El **Agente IA de Mensajería Omnicanal de MetaQare** es el puente inteligente entre el sistema de salud digital y el paciente, garantizando comunicación instantánea, personalizada y segura a través de los canales más utilizados del mundo: WhatsApp, SMS, email y notificaciones móviles. Optimiza la experiencia de usuario y la eficiencia operativa, convirtiendo la comunicación en una verdadera ventaja competitiva.
 

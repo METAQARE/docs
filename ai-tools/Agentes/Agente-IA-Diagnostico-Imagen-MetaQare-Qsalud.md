@@ -1,5 +1,7 @@
-
-# Agente IA de Diagnóstico por Imagen
+---
+title: "Agente IA de Diagnóstico por Imagen"
+---
+#
 
 ## Introducción
 

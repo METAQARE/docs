@@ -1,4 +1,9 @@
-# Agente IA de Análisis Predictivo Clínico
+---
+title: "Agente IA de Análisis Predictivo Clínico"
+---
+
+# 
+
 
 ## Introducción
 

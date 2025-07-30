@@ -1,4 +1,9 @@
-# 🧑‍⚕️ Agente Clínico IA Profesional (“Einstein”)
+---
+title: "Agente Clínico IA Profesional (“Einstein”)"
+---
+
+# 
+
 
 El **Agente Clínico IA “Einstein”** de MetaQare redefine la asistencia médica digital al convertirse en el copiloto cognitivo del profesional sanitario. Integrado en la consulta presencial, telefónica o por videollamada, Einstein potencia la capacidad diagnóstica, reduce el error humano y libera tiempo clínico para el trato humano.
 

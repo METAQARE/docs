@@ -1,4 +1,8 @@
-# Agente IA de Interpretación Avanzada de Analíticas
+---
+title: "Agente IA de Interpretación Avanzada de Analíticas"
+---
+
+# 
 
 El **Agente IA de Interpretación Avanzada de Analíticas de MetaQare** es el primer copiloto digital especializado en la comprensión y contextualización clínica de resultados de laboratorio, pruebas diagnósticas y biomarcadores, diseñado para pacientes, médicos y aseguradoras. Convierte datos crudos en decisiones clínicas inteligentes y accionables en tiempo real.
 
