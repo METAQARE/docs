@@ -1,4 +1,4 @@
-# Agente IA Educativo Médico
+## Agente IA Educativo Médico
 
 El **Agente IA Educativo Médico de MetaQare** es el tutor digital inteligente que acompaña y empodera al paciente y su familia en cada etapa de su proceso de salud. Esta IA revoluciona la educación terapéutica y la prevención, personalizando contenidos multimedia y asegurando la comprensión y adherencia a tratamientos y procedimientos.
 
