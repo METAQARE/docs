@@ -56,7 +56,7 @@
               "ai-tools/Agentes/agente-seguimiento-metaqare",
               "ai-tools/Agentes/agente-segundaopinion-metaqare",
               "ai-tools/Agentes/agente-transcripcion-metaqare",
-              "ai-tools/Agentes/agente-triaje-qsalud-online",
+              "ai-tools/Agentes/agente-triaje-online",
               "ai-tools/Agentes/agentes-ia-metaqare"
             ]
           }
