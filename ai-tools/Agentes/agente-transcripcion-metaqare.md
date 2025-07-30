@@ -1,4 +1,8 @@
-# 🧾 Agente IA de Transcripción Médica Automática
+---
+title: "Agente IA de Transcripción Médica Automática"
+---
+
+#
 
 El **Agente de Transcripción Médica Automática de MetaQare** transforma radicalmente la documentación clínica, automatizando el paso de cualquier consulta —presencial, telefónica o por videoconsulta— a texto estructurado, sugerencia de informe médico y receta electrónica, ahorrando tiempo, reduciendo errores y mejorando la trazabilidad.
 
