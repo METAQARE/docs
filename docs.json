@@ -87,6 +87,7 @@
             "group": "Agentes Inteligentes",
             "icon": "cpu",
             "pages": [
+              "ai-tools/agentes-inteligentes-metaqare",
               "ai-tools/Agentes/Agente-IA-Analisis-Predictivo-Clinico-Qsalud",
               "ai-tools/Agentes/Agente-IA-Asistencia-Cirugias-MetaQare-Qsalud",
               "ai-tools/Agentes/Agente-IA-Consentimientos-Informados-Qsalud",
