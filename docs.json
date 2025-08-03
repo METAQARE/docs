@@ -63,8 +63,29 @@
             ]
           },
           {
-            "group": "Agentes MetaQare",
-            "icon": "robot",
+            "group": "Snippets y Ejemplos",
+            "icon": "code",
+            "pages": [
+              "snippets/ejemplos-integracion",
+              "snippets/api-snippets"
+            ]
+          },
+          {
+            "group": "Feedback y Mejoras",
+            "icon": "message-circle",
+            "pages": [
+              "feedback"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Agentes MetaQare",
+        "icon": "robot",
+        "groups": [
+          {
+            "group": "Agentes Inteligentes",
+            "icon": "cpu",
             "pages": [
               "ai-tools/Agentes/Agente-IA-Analisis-Predictivo-Clinico-Qsalud",
               "ai-tools/Agentes/Agente-IA-Asistencia-Cirugias-MetaQare-Qsalud",
@@ -81,21 +102,6 @@
               "ai-tools/Agentes/agente-transcripcion-metaqare",
               "ai-tools/Agentes/agente-triaje-online",
               "ai-tools/Agentes/agentes-ia-metaqare"
-            ]
-          },
-          {
-            "group": "Snippets y Ejemplos",
-            "icon": "code",
-            "pages": [
-              "snippets/ejemplos-integracion",
-              "snippets/api-snippets"
-            ]
-          },
-          {
-            "group": "Feedback y Mejoras",
-            "icon": "message-circle",
-            "pages": [
-              "feedback"
             ]
           }
         ]
@@ -182,3 +188,4 @@
     }
   }
 }
+
