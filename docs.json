@@ -55,14 +55,7 @@
               "manual_administrador_qsalud/gestion-entidades"
             ]
           },
-          {
-            "group": "Herramientas de IA",
-            "icon": "brain-circuit",
-            "pages": [
-              "ai-tools/agentes-inteligentes-metaqare"
-            ]
-          },
-          {
+                    {
             "group": "Snippets y Ejemplos",
             "icon": "code",
             "pages": [
@@ -83,6 +76,13 @@
         "tab": "Agentes MetaQare",
         "icon": "robot",
         "groups": [
+          {
+            "group": "Herramientas de IA",
+            "icon": "brain-circuit",
+            "pages": [
+              "ai-tools/agentes-inteligentes-metaqare"
+            ]
+          },
           {
             "group": "Agentes Inteligentes",
             "icon": "cpu",
