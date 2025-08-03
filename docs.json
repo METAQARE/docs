@@ -35,14 +35,14 @@
             "group": "Manual del Paciente",
             "icon": "user",
             "pages": [
-              "MANUAL_PACIENTE_QsaludUser"
+              "MANUAL_PACIENTE"
             ]
           },
           {
             "group": "Manual del Profesional",
             "icon": "stethoscope",
             "pages": [
-              "MANUAL_PROFESIONAL_QsaludPro"
+              "MANUAL_PROFESIONAL"
             ]
           },
           {
