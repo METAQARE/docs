@@ -20,7 +20,7 @@
               { "page": "index", "icon": "home" },
               { "page": "quickstart", "icon": "rocket" },
               { "page": "development", "icon": "code-2" },
-              { "page": "SUMMARY", "icon": "list" }  // Índice o Tabla de contenidos
+              { "page": "SUMMARY", "icon": "list" }
             ]
           },
           {
