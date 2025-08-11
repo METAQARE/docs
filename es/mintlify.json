@@ -1,0 +1,16 @@
+{
+  "navigation": [
+    {
+      "section": "🔒 Acceso General",
+      "path": "ACCESO_GENERAL"
+    },
+    {
+      "section": "👨‍👩‍👧 Manual del Paciente",
+      "path": "MANUAL_PACIENTE_QsaludUser"
+    },
+    {
+      "section": "👩‍⚕️ Manual del Profesional Médico",
+      "path": "MANUAL_PROFESIONAL_QsaludPro"
+    }
+  ]
+}

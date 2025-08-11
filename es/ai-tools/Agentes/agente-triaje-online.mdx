@@ -1,0 +1,180 @@
+---
+title: "Agente IA de triaje médico"
+---
+
+# 
+
+El **Agente de triaje QSalud Online** es una solución integrada en la plataforma METAQARE que utiliza inteligencia artificial para mejorar y automatizar el triaje, el agendamiento y la gestión de citas médicas. Este agente conecta a tus usuarios y asistentes virtuales con el sistema de QSalud, permitiendo resolver todo el ciclo de atención médica de manera automática, rápida y segura.
+
+---
+
+## ¿Qué permite este agente?
+
+- Sugerir la especialidad médica adecuada según los síntomas descritos por el paciente.
+- Buscar la primera y próximas disponibilidades de especialistas, según modalidad (presencial o virtual).
+- Consultar el precio de cualquier especialidad médica.
+- Reservar, modificar o cancelar citas médicas en tiempo real.
+- Consultar detalles completos de una cita.
+- Todo integrado con asistentes OpenAI (ChatGPT, Claude, etc.) a través de METAQARE.
+
+---
+
+## Funciones disponibles
+
+| Función                         | Descripción                                                      |
+| ------------------------------- | ---------------------------------------------------------------- |
+| **sugerirEspecialidad**         | Sugiere la especialidad médica apropiada en base a los síntomas. |
+| **modificarCita**               | Modifica la fecha, hora o modalidad de una cita ya reservada.    |
+| **cancelarCita**                | Cancela una cita existente indicando el motivo.                  |
+| **buscarPrimeraDisponibilidad** | Busca el primer horario disponible para una especialidad.        |
+| **buscarDisponibilidad**        | Lista horarios disponibles para una especialidad o doctor.       |
+| **consultarPrecio**             | Devuelve el precio de una especialidad médica.                   |
+| **verDetalleCita**              | Muestra toda la información relevante de una cita médica.        |
+| **reservarCita**                | Permite reservar una nueva cita médica con todos los datos.      |
+
+---
+
+## Ejemplos de uso e integración
+
+Tus agentes conversacionales podrán llamar estas funciones de forma directa:
+
+### 1. Sugerir especialidad médica
+
+```js
+await sugerirEspecialidad("dolor de garganta y fiebre");
+```
+
+**Respuesta:**\
+`"Otorrinolaringología"`
+
+---
+
+### 2. Buscar la primera disponibilidad
+
+```js
+await buscarPrimeraDisponibilidad("Dermatología", "virtual");
+```
+
+**Respuesta:**\
+`"Primera cita disponible: 2024-08-15 09:00 (virtual)"`
+
+---
+
+### 3. Reservar una cita médica
+
+```js
+await reservarCita(
+  provider_id,
+  "2024-08-20",
+  "11:30",
+  "videollamada",
+  "Ana",
+  "López",
+  "ana.lopez@email.com",
+  "+34999888777",
+  "987654",
+  "Cardiología",
+  2
+);
+```
+
+**Respuesta:**\
+`"Cita reservada correctamente. Enlace de pago: https://..."`
+
+---
+
+### 4. Modificar una cita
+
+```js
+await modificarCita(
+  "12345",      // ID de la reserva
+  "2024-08-22", // Nueva fecha
+  "16:00",      // Nueva hora
+  "llamada"     // Nueva modalidad
+);
+```
+
+**Respuesta:**\
+`"Cita modificada exitosamente."`
+
+---
+
+### 5. Cancelar una cita
+
+```js
+await cancelarCita(
+  "12345",
+  "No puedo asistir"
+);
+```
+
+**Respuesta:**\
+`"Cita cancelada correctamente."`
+
+---
+
+### 6. Ver detalle de una cita
+
+```js
+await verDetalleCita(
+  "12345",
+  "Ana",
+  "López",
+  "2024-08-20",
+  "Cardiología",
+  "Dr. Pérez"
+);
+```
+
+**Respuesta:**
+
+```
+Paciente: Ana López
+Fecha inicio: 2024-08-20 11:30
+Fecha fin: 2024-08-20 12:00
+Especialidad: Cardiología
+Médico: Dr. Pérez
+Modalidad: Videollamada
+Estado: Confirmada
+```
+
+---
+
+### 7. Consultar precio
+
+```js
+await consultarPrecio("Psicología");
+```
+
+**Respuesta:**\
+`"49.00 €"`
+
+---
+
+## Requisitos
+
+- API Key válida de METAQARE y acceso autorizado.
+- Todas las llamadas se realizan de forma segura vía HTTPS.
+
+---
+
+## Consejos de uso
+
+- Valida y sanitiza los datos de entrada de usuarios.
+- Informa siempre el resultado de cada acción al paciente.
+- Confirma acciones críticas como cancelaciones o cambios de cita antes de ejecutar.
+
+---
+
+## Soporte
+
+¿Dudas o sugerencias?\
+Escríbenos a: [soporte@metaqare.com](mailto:soporte@metaqare.ai)\
+Más información y documentación en: https://docs.metaqare.ai/ai-tools/qsalud
+
+---
+
+> **METAQARE — Salud digital para todos.**\
+> Optimiza la experiencia médica de tus usuarios, automatiza la atención y lleva tu clínica al siguiente nivel con IA.
+
+---
