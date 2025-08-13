@@ -7,12 +7,15 @@
     "light": "#5CA9E6",
     "dark": "#053062"
   },
+
+  "icons": { "library": "lucide" },
+
   "favicon": "/logo/metaqare-favicon.png",
+
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Español",
-        "icon": "globe",
+        "language": "es",
         "groups": [
           {
             "group": "Ecosistema MetaQare",
@@ -34,16 +37,12 @@
           {
             "group": "Manual del Paciente",
             "icon": "user",
-            "pages": [
-              "es/MANUAL_PACIENTE"
-            ]
+            "pages": ["es/MANUAL_PACIENTE"]
           },
           {
             "group": "Manual del Profesional",
             "icon": "stethoscope",
-            "pages": [
-              "es/MANUAL_PROFESIONAL"
-            ]
+            "pages": ["es/MANUAL_PROFESIONAL"]
           },
           {
             "group": "Manual del Administrador",
@@ -64,17 +63,61 @@
             ]
           },
           {
+            "group": "Agentes MetaQare",
+            "icon": "cpu",
+            "pages": [
+              "es/ai-tools/agentes-inteligentes-metaqare",
+              "es/ai-tools/Agentes/Agente-IA-Analisis-Predictivo-Clinico-Qsalud",
+              "es/ai-tools/Agentes/Agente-IA-Asistencia-Cirugias-MetaQare-Qsalud",
+              "es/ai-tools/Agentes/Agente-IA-Consentimientos-Informados-Qsalud",
+              "es/ai-tools/Agentes/Agente-IA-Diagnostico-Imagen-MetaQare-Qsalud",
+              "es/ai-tools/Agentes/Agente-IA-Gestion-Salud-Mental-Qsalud"
+            ]
+          },
+          {
+            "group": "API y Manuales",
+            "icon": "book",
+            "groups": [
+              {
+                "group": "Documentación API",
+                "icon": "book-text",
+                "pages": [
+                  "es/api-reference/introduction",
+                  "es/api-reference/companies"
+                ]
+              },
+              {
+                "group": "Acceso y Portales",
+                "icon": "lock",
+                "pages": [
+                  "es/ACCESO_GENERAL",
+                  "es/PORTAL_ASEGURADORAS_CLIENTES"
+                ]
+              },
+              {
+                "group": "Actualizaciones y Seguridad",
+                "icon": "shield",
+                "pages": [
+                  "es/SECURITY",
+                  "es/CHANGELOG"
+                ]
+              },
+              {
+                "group": "Contribución",
+                "icon": "git-pull-request",
+                "pages": ["es/CONTRIBUTING"]
+              }
+            ]
+          },
+          {
             "group": "Feedback y Mejoras",
             "icon": "message-circle",
-            "pages": [
-              "es/feedback"
-            ]
+            "pages": ["es/feedback"]
           }
         ]
       },
       {
-        "tab": "English",
-        "icon": "globe",
+        "language": "en",
         "groups": [
           {
             "group": "MetaQare Ecosystem",
@@ -96,16 +139,12 @@
           {
             "group": "Patient Manual",
             "icon": "user",
-            "pages": [
-              "en/MANUAL_PACIENTE"
-            ]
+            "pages": ["en/MANUAL_PACIENTE"]
           },
           {
             "group": "Professional Manual",
             "icon": "stethoscope",
-            "pages": [
-              "en/MANUAL_PROFESIONAL"
-            ]
+            "pages": ["en/MANUAL_PROFESIONAL"]
           },
           {
             "group": "Administrator Manual",
@@ -126,114 +165,76 @@
             ]
           },
           {
-            "group": "Feedback & Improvements",
-            "icon": "message-circle",
-            "pages": [
-              "en/feedback"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Agentes MetaQare / MetaQare Agents",
-        "icon": "robot",
-        "groups": [
-          {
-            "group": "Herramientas de IA / AI Tools",
-            "icon": "brain-circuit",
-            "pages": [
-              "es/ai-tools/agentes-inteligentes-metaqare",
-              "en/ai-tools/intelligent-agents-metaqare"
-            ]
-          },
-          {
-            "group": "Agentes Inteligentes / Intelligent Agents",
+            "group": "MetaQare Agents",
             "icon": "cpu",
             "pages": [
-              "es/ai-tools/Agentes/Agente-IA-Analisis-Predictivo-Clinico-Qsalud",
-              "es/ai-tools/Agentes/Agente-IA-Asistencia-Cirugias-MetaQare-Qsalud",
-              "es/ai-tools/Agentes/Agente-IA-Consentimientos-Informados-Qsalud",
-              "es/ai-tools/Agentes/Agente-IA-Diagnostico-Imagen-MetaQare-Qsalud",
-              "es/ai-tools/Agentes/Agente-IA-Gestion-Salud-Mental-Qsalud",
+              "en/ai-tools/intelligent-agents-metaqare",
               "en/ai-tools/Agentes/AI-Agent-Clinical-Predictive-Analysis-Qsalud",
               "en/ai-tools/Agentes/AI-Agent-Surgical-Assistance-MetaQare-Qsalud",
               "en/ai-tools/Agentes/AI-Agent-Informed-Consents-Qsalud",
               "en/ai-tools/Agentes/AI-Agent-Medical-Imaging-Diagnosis-MetaQare-Qsalud",
               "en/ai-tools/Agentes/AI-Agent-Mental-Health-Management-Qsalud"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "API & Manuales / API & Manuals",
-        "icon": "book",
-        "groups": [
+          },
           {
-            "group": "Documentación API / API Documentation",
-            "icon": "book-text",
-            "pages": [
-              "es/api-reference/introduction",
-              "es/api-reference/companies",
-              "en/api-reference/introduction",
-              "en/api-reference/companies"
+            "group": "API & Manuals",
+            "icon": "book",
+            "groups": [
+              {
+                "group": "API Documentation",
+                "icon": "book-text",
+                "pages": [
+                  "en/api-reference/introduction",
+                  "en/api-reference/companies"
+                ]
+              },
+              {
+                "group": "Access & Portals",
+                "icon": "lock",
+                "pages": [
+                  "en/GENERAL_ACCESS",
+                  "en/INSURERS_CLIENTS_PORTAL"
+                ]
+              },
+              {
+                "group": "Updates & Security",
+                "icon": "shield",
+                "pages": [
+                  "en/SECURITY",
+                  "en/CHANGELOG"
+                ]
+              },
+              {
+                "group": "Contribution",
+                "icon": "git-pull-request",
+                "pages": ["en/CONTRIBUTING"]
+              }
             ]
           },
           {
-            "group": "Acceso y Portales / Access & Portals",
-            "icon": "lock",
-            "pages": [
-              "es/ACCESO_GENERAL",
-              "es/PORTAL_ASEGURADORAS_CLIENTES",
-              "en/GENERAL_ACCESS",
-              "en/INSURERS_CLIENTS_PORTAL"
-            ]
-          },
-          {
-            "group": "Actualizaciones y Seguridad / Updates & Security",
-            "icon": "shield",
-            "pages": [
-              "es/SECURITY",
-              "es/CHANGELOG",
-              "en/SECURITY",
-              "en/CHANGELOG"
-            ]
-          },
-          {
-            "group": "Contribución / Contribution",
-            "icon": "git-pull-request",
-            "pages": [
-              "es/CONTRIBUTING",
-              "en/CONTRIBUTING"
-            ]
+            "group": "Feedback & Improvements",
+            "icon": "message-circle",
+            "pages": ["en/feedback"]
           }
         ]
       }
     ],
     "global": {
       "anchors": [
-        {
-          "anchor": "Sitio web / Website",
-          "href": "https://metaqare.ai",
-          "icon": "globe"
-        },
-        {
-          "anchor": "Soporte / Support",
-          "href": "mailto:soporte@metaqare.ai",
-          "icon": "lifebuoy"
-        }
+        { "anchor": "Sitio web / Website", "href": "https://metaqare.ai", "icon": "globe" },
+        { "anchor": "Soporte / Support", "href": "mailto:soporte@metaqare.ai", "icon": "lifebuoy" }
       ]
     }
   },
+
   "logo": {
     "light": "/logo/Metaqare.png",
     "dark": "/logo/Metaqare.png"
   },
+
   "navbar": {
     "links": [
-      {
-        "label": "Soporte / Support",
-        "href": "mailto:soporte@metaqare.com"
-      }
+      { "label": "Soporte / Support", "href": "mailto:soporte@metaqare.ai" }
     ],
     "primary": {
       "type": "button",
@@ -241,6 +242,7 @@
       "href": "https://qsalud.com"
     }
   },
+
   "footer": {
     "socials": {
       "x": "https://x.com/metaqare",
@@ -249,4 +251,3 @@
     }
   }
 }
-
